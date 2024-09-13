@@ -62,6 +62,8 @@ section#login > div#formulario{
     height: 40px;
     margin-bottom: 5px;
     width: 100%;
+    position: relative;
+    border: 2px solid darkgoldenrod;
 }
 
 .campo > label{
@@ -70,20 +72,22 @@ section#login > div#formulario{
 
 .campo > span{
     color: aliceblue;
-    background-color: black;
+    
     font-size: 2em;
     width: 40px;
     padding: 5px;
+    transform: translateX(-4px);
 }
 
 .campo > input{
     background-color: rgb(190, 93, 113);
     font-size: 1em;
     height: 100%;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 4px;
     width: calc(100%-44px);
-    transform: translateY(-20px);
+    transform: translate(34px,-42px);
+    
 }
 
 #esq{
