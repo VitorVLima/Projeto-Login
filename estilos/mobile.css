@@ -10,6 +10,15 @@ body, html{
     height: 100vh;
     width: 100vw;
 }
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p#texto{
+    text-align: justify;
+    font-size: 0.8em;
+}
 
 main{
     position: relative;
@@ -44,6 +53,66 @@ section#login > div#formulario{
     display: block;
     padding: 10px;
 
+}
+
+.campo{
+    background-color: darkgoldenrod;
+    display: block;
+    border-radius: 10px;
+    height: 40px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.campo > label{
+    display: none;
+}
+
+.campo > span{
+    color: aliceblue;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo > input{
+    background-color: rgb(190, 93, 113);
+    font-size: 1em;
+    height: 100%;
+    border-radius: 8px;
+    padding: 4px;
+    width: calc(100%-44px);
+    transform: translateY(-20px);
+}
+
+#esq{
+    display: block;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#esq:hover{
+    background-color: darkkhaki;
+    color: aliceblue;
+}
+
+#env{
+    display: block;
+    font-size: 1.1em;
+    font-weight: bolder;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color:  rgb(201, 65, 65);
+    color: aliceblue;
+    border-radius: 5px;
+}
+#env:hover{
+    background-color: darkkhaki;
 }
 
 

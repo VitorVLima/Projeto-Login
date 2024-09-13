@@ -44,5 +44,12 @@
         width: 60%;
         height: 100%;
     }
+    h1{
+        font-size: 2em;
+    }
+
+    p#texto{
+        font-size: 1.2em;
+    }
     
 }
