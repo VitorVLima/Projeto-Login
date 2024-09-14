@@ -7,8 +7,35 @@
     <link rel="stylesheet" href="estilos/diversos.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Projeto Login</title>
+    
 </head>
-<body>
+<body onresize="mudouTamanho()" onload="mudouTamanho()">
+    <header>
+        <h1>Projeto Login</h1>
+            <p id="texto">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+        
+        <span class="material-symbols-outlined" id="men">
+            menu
+            </span>
+        <menu id="itens">
+            <ul><a href="">
+                <li>Login</li>
+            </a>
+            <a href="">
+                <li>Home</li>
+            </a>
+            <a href="">
+                <li>Fale Conosco</li>
+            </a>
+            <a href="">
+                <li>Parcerias</li>
+            </a>
+            <a href="">
+                <li>Noticias</li>
+            </a></ul>
+        </menu>
+    </header>
+
     <main>
         <section id="login">
             <div id="imagem">
@@ -17,7 +44,7 @@
 
             <div id="formulario">
                 <h1>Login</h1>
-                <p id="texto">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
                         <span class="material-symbols-outlined">
@@ -41,6 +68,7 @@
         </section>
     </main>
 
+    <script src="scr.js"></script>
 
 </body>
 </html>

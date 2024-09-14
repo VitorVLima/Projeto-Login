@@ -1,12 +1,21 @@
 @media screen and (min-width: 769px) and (max-width: 992px){
     body{
         background-image: linear-gradient(to top, rgb(201, 65, 65), darkkhaki);
+        height: 140vh;
+    }
 
+    header li{
+        display: inline-block;
+        width: 150px;
+        
+    }
+    #men{
+        display: none;
     }
 
     section#login{
         width: 80vw;
-        height: 300px;
+        height: 280px;
     }
 
     section#login > div#imagem{
@@ -26,11 +35,12 @@
 @media screen and (min-width: 993px){
     body{
         background-image: linear-gradient(to top, rgb(201, 65, 65), darkkhaki);
+        height: 135vh;
 
     }
     section#login{
         width: 990px;
-        height: 400px;
+        height: 320px;
     }
 
     section#login > div#imagem{
@@ -48,8 +58,31 @@
         font-size: 2em;
     }
 
+    header li{
+        display: inline-block;
+        width: 150px;
+        
+    }
+    #men{
+        display: none;
+    }
+
     p#texto{
         font-size: 1.2em;
+    }
+
+    .campo > input{
+        background-color: rgb(190, 93, 113);
+        font-size: 1em;
+        height: 100%;
+        border-radius: 10px;
+        padding: 4px;
+        position: absolute;
+        width: 87%;
+    }
+    .campo{
+        height: 50px;
+        margin-top: 10px;
     }
     
 }
